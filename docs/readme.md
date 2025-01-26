@@ -1,11 +1,17 @@
-## Introducción
-Los sistemas computaciones actuales son capaces de realizar un gran volúmen de operaciones de manera muy eficaz, y aunque en la actualidad el diseño de hardware permite tener equipos de cómputo de gran capacidad, aún es muy importante el uso eficiente de técnicas y arquitecturas que permitan optmizar el uso de recursos. Especificamente, para el cómputo en la nube, un uso eficiente de recursos se traduce en un ahorro significativo de costos. Esto nos motiva a revisar técnicas de programación paralela.
+# Introducción
+Los sistemas computacionales actuales son capaces de realizar un gran volúmen de operaciones de manera muy eficaz, y aunque en la actualidad el diseño de hardware permite tener equipos de cómputo de gran capacidad, aún es muy importante el uso eficiente de técnicas y arquitecturas que permitan optimizar el uso de recursos. Específicamente, para el cómputo en la nube, un uso eficiente de recursos se traduce en un ahorro significativo de costos. Esto nos motiva a revisar técnicas de programación paralela.
 
 La programación paralela es una técnica de programación que permite ejecutar múltiples procesos simultáneamente. En este proyecto, utilizaremos OpenMP para crear una solución paralela para la suma de arreglos. Nuestro objetivo es explorar las capacidades de OpenMP para resolver problemas de manera paralela, a un problema sencillo, pero que permita observar los beneficios de la computación paralela.
 
+
 # Liga del repositorio
 El código explicado de este document puede encontrarse en esta liga:
-[Enlace al repositorio de GitHub](https://github.com/nestor-h/tarea1-paralela)
+[https://github.com/nessBautista/OpenMP_example](https://github.com/nessBautista/OpenMP_example)!
+
+
+
+Para compilar y ejecutar el código, se ha usado vscode. La carpeta `.vscode` contiene la configuración necesaria para compilar y ejecutar el código desde vscode. 
+
 
 # Ejecuciones del Proyecto
 A continuación se muestran 2 ejecuciones del programa, con las variables usadas y con los resultados de cada una.

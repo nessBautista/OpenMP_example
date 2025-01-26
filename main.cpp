@@ -2,8 +2,8 @@
 #include <omp.h>
 
 // Definición de constantes
-#define N 10000        // Tamaño de los arreglos
-#define chunk 200     // Tamaño del bloque para paralelización
+#define N 100000        // Tamaño de los arreglos
+#define chunk 100     // Tamaño del bloque para paralelización
 #define mostrar 10    // Cantidad de elementos a mostrar en pantalla
 
 // Declaración de función para imprimir arreglos
@@ -21,8 +21,8 @@ int main()
     // Inicialización de los arreglos de entrada con valores de prueba
     for (i = 0; i < N; i++)
     {
-        a[i] = i * 10;         // a contendrá: 0, 10, 20, 30, ...
-        b[i] = (i + 3) * 5.7;  // b contendrá: 11.1, 14.8, 18.5, ...
+        a[i] = i * 10;         
+        b[i] = (i + 3) * 10.7;  
     }
 
     // Variable para controlar el tamaño de los bloques en la paralelización
